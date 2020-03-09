@@ -1,0 +1,12 @@
+
+<!-->
+    manage twiml
+    https://www.twilio.com/console/functions/manage/ZHbb9b41fc24889e341189af08c06ebf0f
+<!-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Dial>
+	{{#e164}}{{forward}}{{/e164}}
+  </Dial>
+</Response>
